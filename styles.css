@@ -41,6 +41,12 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+
+
+/*  */
+
+
+
 button{
   display: inline-block;
   background-color: rgb(143, 192, 143);
@@ -68,7 +74,7 @@ p{
   height: 500px;
   background-color: rgb(30, 30, 77);
   color: #fff;
-  padding: 20px;
+  padding: 40px;
   gap: 20px;
   flex-wrap: wrap;
   border-radius: 10px;
@@ -81,6 +87,19 @@ p{
   width: 400px;
 }
 
+#generatedPasswords{
+  display: flex;
+  justify-content: space-around;
+}
+
 .coloredText{
   color: rgb(143, 192, 143);
+}
+
+.passwords{
+  background-color: rgb(47, 47, 111);
+  padding: 5px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 13px;
 }
