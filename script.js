@@ -20,4 +20,7 @@ function createPassword(){
 
     passwordOne.textContent = firstPass;
     passwordTwo.textContent = secondPass;
+
+    passwordOne.classList.add("passwords");
+    passwordTwo.classList.add("passwords");
 }
